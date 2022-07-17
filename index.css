@@ -14,6 +14,9 @@ body{
     display: flex;
     align-items: center;
 }
+.sb{
+    justify-content: space-between;
+}
 .header{
     width: 100%;
     height: 60px;
@@ -23,7 +26,7 @@ body{
     border-bottom: 1px solid #EFEFEF;
 }
 .div_input{
-    width: 25%;
+    width: 27%;
 }
 .icons{
     width: 270px;
@@ -49,13 +52,39 @@ body{
     padding: 9px 48px;
 }
 .div_input::before{
-    content: url(./img/search.jpg);
+    content: url(./img/search.png);
     position: relative;
-    right: 100px;
-    top: 100px;
+    right: -35px;
+    top: 3px;
 }
 .main{
     background-color: #F9F9F9;
     height: 100%;
     width: 100%;
+}
+.maintop{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 40px 32% 0;
+}
+.curcle{
+    width: 150px;
+    height: 150px;
+    background-color: #C4C4C4;
+    border-radius: 400px;
+}
+.p1{
+    font-weight: 400;
+    font-size: 28px;
+}
+.button{
+    border: 1px solid #EFEFEF;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 65%;
+}
+.maintop_r{
+    width: 90%;
 }
